@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/5c5d2c13-3ac9-4926-a20a-90c981e21c2e
+
 # 🚀 ContextLens AI
 
 > **Chat with any webpage using AI — understand, summarize, and ask questions about the page you're currently viewing.**

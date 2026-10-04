@@ -1,0 +1,40 @@
+﻿node.exe : [33mThe CJS 
+build of Vite's Node API is 
+deprecated. See https://vite
+.dev/guide/troubleshooting.h
+tml#vite-cjs-node-api-deprec
+ated for more details.[39m
+At 
+C:\nvm4w\nodejs\npx.ps1:16 
+char:5
++     & "$basedir/node$exe" 
+ "$basedir/node_modules/npm/
+bin/npx-cli.js" ...
++     ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: ([33m  
+  The CJS bu...e details.   
+ [39m:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+[31merror when starting 
+dev server:
+Error: Port 5173 is already 
+in use
+    at Server.onError (file:
+///E:/collabe%20project/cont
+extlensai/extension/node_mod
+ules/vite/dist/node/chunks/d
+ep-BK3b2jBa.js:45596:18)
+    at Server.emit 
+(node:events:524:28)
+    at emitErrorNT 
+(node:net:1948:8)
+    at process.processTicksA
+ndRejections (node:internal/
+process/task_queues:90:21)[
+39m

@@ -1,0 +1,4 @@
+// src/components/.gitkeep
+// This folder will contain shared, reusable React components
+// (e.g., Button, ChatBubble, InputBar, Spinner).
+// Added in Step 2+ when the chat UI is built.

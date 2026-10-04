@@ -1,0 +1,4 @@
+// src/public/.gitkeep
+// Place extension icons (icon16.png, icon32.png, icon48.png, icon128.png) here.
+// These are referenced by manifest.json's 'icons' and 'action.default_icon' fields.
+// Until real icons are added, Chrome will show a default puzzle-piece icon.

@@ -1,0 +1,21 @@
+{
+    "name": "contextlens-ai-extension",
+    "version": "1.0.0",
+    "description": "ContextLens AI - Chrome Extension Frontend",
+    "private": true,
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "build:watch": "vite build --watch"
+    },
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.268",
+        "@vitejs/plugin-react": "^4.3.1",
+        "vite": "^5.4.1"
+    }
+}

@@ -1,0 +1,47 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env_dir/
+
+venv/
+.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment files (NEVER commit secrets)
+.env
+
+# ChromaDB local storage
+chroma_db/
+*.db
+*.sqlite
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+
+# MyPy
+.mypy_cache/

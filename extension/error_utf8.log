@@ -1,0 +1,335 @@
+﻿node.exe : [33mThe CJS 
+build of Vite's Node API is 
+deprecated. See https://vite
+.dev/guide/troubleshooting.h
+tml#vite-cjs-node-api-deprec
+ated for more details.[39m
+At 
+C:\nvm4w\nodejs\npx.ps1:16 
+char:5
++     & "$basedir/node$exe" 
+ "$basedir/node_modules/npm/
+bin/npx-cli.js" ...
++     ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: ([33m  
+  The CJS bu...e details.   
+ [39m:String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+2026-10-03T16:38:49.381Z 
+vite:config bundled config 
+file loaded in 84.68ms
+2026-10-03T16:38:49.395Z 
+vite:config using resolved 
+config: {
+  plugins: [
+    'vite:optimized-deps',
+    
+'vite:watch-package-data',
+    'vite:pre-alias',
+    'alias',
+    'vite:react-babel',
+    'vite:react-refresh',
+    'vite:modulepreload-poly
+fill',
+    'vite:resolve',
+    
+'vite:html-inline-proxy',
+    'vite:css',
+    'vite:esbuild',
+    'vite:json',
+    'vite:wasm-helper',
+    'vite:worker',
+    'vite:asset',
+    'vite:wasm-fallback',
+    'vite:define',
+    'vite:css-post',
+    'vite:worker-import-meta
+-url',
+    'vite:asset-import-meta-
+url',
+    
+'vite:dynamic-import-vars',
+    'vite:import-glob',
+    'vite:client-inject',
+    'vite:css-analysis',
+    'vite:import-analysis'
+  ],
+  resolve: {
+    mainFields: [ 
+'browser', 'module', 
+'jsnext:main', 'jsnext' ],
+    conditions: [],
+    extensions: [
+      '.mjs',  '.js',
+      '.mts',  '.ts',
+      '.jsx',  '.tsx',
+      '.json'
+    ],
+    dedupe: [ 'react', 
+'react-dom' ],
+    preserveSymlinks: false,
+    alias: [ [Object], 
+[Object], [Object] ]
+  },
+  publicDir: 'E:/collabe pro
+ject/contextlensai/extension
+/public',
+  build: {
+    target: [ 'es2020', 
+'edge88', 'firefox78', 
+'chrome87', 'safari14' ],
+    cssTarget: [ 'es2020', 
+'edge88', 'firefox78', 
+'chrome87', 'safari14' ],
+    outDir: 'dist',
+    assetsDir: 'assets',
+    assetsInlineLimit: 4096,
+    cssCodeSplit: true,
+    sourcemap: false,
+    rollupOptions: { input: 
+[Object], output: [Object], 
+onwarn: [Function: onwarn] 
+},
+    minify: 'esbuild',
+    terserOptions: {},
+    write: true,
+    emptyOutDir: true,
+    copyPublicDir: true,
+    manifest: false,
+    lib: false,
+    ssr: false,
+    ssrManifest: false,
+    ssrEmitAssets: false,
+    reportCompressedSize: 
+true,
+    chunkSizeWarningLimit: 
+500,
+    watch: null,
+    commonjsOptions: { 
+include: [Array], 
+extensions: [Array] },
+    
+dynamicImportVarsOptions: { 
+warnOnError: true, exclude: 
+[Array] },
+    modulePreload: { 
+polyfill: true },
+    cssMinify: true
+  },
+  server: {
+    preTransformRequests: 
+true,
+    port: 5173,
+    strictPort: true,
+    sourcemapIgnoreList: 
+[Function: 
+isInNodeModules$1],
+    middlewareMode: false,
+    fs: {
+      strict: true,
+      allow: [Array],
+      deny: [Array],
+      cachedChecks: 
+undefined
+    }
+  },
+  optimizeDeps: {
+    holdUntilCrawlEnd: true,
+    force: undefined,
+    esbuildOptions: { 
+preserveSymlinks: false, 
+jsx: 'automatic' },
+    include: [
+      'react',
+      'react-dom',
+      
+'react/jsx-dev-runtime',
+      'react/jsx-runtime'
+    ]
+  },
+  esbuild: { jsxDev: true, 
+jsx: 'automatic', 
+jsxImportSource: undefined 
+},
+  configFile: 'E:/collabe pr
+oject/contextlensai/extensio
+n/vite.config.js',
+  configFileDependencies: [ 
+'E:/collabe project/contextl
+ensai/extension/vite.config.
+js' ],
+  inlineConfig: {
+    root: undefined,
+    base: undefined,
+    mode: undefined,
+    configFile: undefined,
+    logLevel: undefined,
+    clearScreen: undefined,
+    optimizeDeps: { force: 
+undefined },
+    server: { host: 
+undefined }
+  },
+  root: 'E:/collabe project/
+contextlensai/extension',
+  base: '/',
+  decodedBase: '/',
+  rawBase: '/',
+  cacheDir: 'E:/collabe proj
+ect/contextlensai/extension/
+node_modules/.vite',
+  command: 'serve',
+  mode: 'development',
+  ssr: {
+    target: 'node',
+    optimizeDeps: { 
+noDiscovery: true, 
+esbuildOptions: [Object] }
+  },
+  isWorker: false,
+  mainConfig: null,
+  bundleChain: [],
+  isProduction: false,
+  css: { lightningcss: 
+undefined },
+  preview: {
+    port: undefined,
+    strictPort: true,
+    host: undefined,
+    allowedHosts: undefined,
+    https: undefined,
+    open: undefined,
+    proxy: undefined,
+    cors: undefined,
+    headers: undefined
+  },
+  envDir: 'E:/collabe projec
+t/contextlensai/extension',
+  env: { BASE_URL: '/', 
+MODE: 'development', DEV: 
+true, PROD: false },
+  assetsInclude: [Function: 
+assetsInclude],
+  logger: {
+    hasWarned: false,
+    info: [Function: info],
+    warn: [Function: warn],
+    warnOnce: [Function: 
+warnOnce],
+    error: [Function: 
+error],
+    clearScreen: [Function: 
+clearScreen],
+    hasErrorLogged: 
+[Function: hasErrorLogged]
+  },
+  packageCache: Map(1) {
+    'fnpd_E:/collabe project
+/contextlensai/extension' 
+=> {
+      dir: 'E:/collabe proje
+ct/contextlensai/extension',
+      data: [Object],
+      hasSideEffects: 
+[Function: hasSideEffects],
+      webResolvedImports: 
+{},
+      nodeResolvedImports: 
+{},
+      setResolvedCache: 
+[Function: 
+setResolvedCache],
+      getResolvedCache: 
+[Function: getResolvedCache]
+    },
+    set: [Function 
+(anonymous)]
+  },
+  createResolver: 
+[Function: createResolver],
+  worker: { format: 'iife', 
+plugins: '() => plugins', 
+rollupOptions: {} },
+  appType: 'spa',
+  experimental: { 
+importGlobRestoreExtension: 
+false, hmrPartialAccept: 
+false },
+  webSocketToken: 
+'UQFj00W9kyKQ',
+  additionalAllowedHosts: 
+[],
+  getSortedPlugins: 
+[Function: 
+getSortedPlugins],
+  getSortedPluginHooks: 
+[Function: 
+getSortedPluginHooks]
+}
+2026-10-03T16:38:49.426Z 
+vite:deps [32mremoving old 
+cache dir E:/collabe project
+/contextlensai/extension/nod
+e_modules/.vite/deps[39m
+2026-10-03T16:38:49.438Z 
+vite:resolve 
+[32m3.41ms[39m 
+[36mreact[39m -> 
+[2mE:/collabe project/conte
+xtlensai/extension/node_modu
+les/react/index.js[22m
+2026-10-03T16:38:49.440Z 
+vite:resolve 
+[32m1.66ms[39m 
+[36mreact-dom[39m -> 
+[2mE:/collabe project/conte
+xtlensai/extension/node_modu
+les/react-dom/index.js[22m
+2026-10-03T16:38:49.441Z 
+vite:resolve 
+[32m0.59ms[39m [36mreact/
+jsx-dev-runtime[39m -> 
+[2mE:/collabe project/conte
+xtlensai/extension/node_modu
+les/react/jsx-dev-runtime.js
+[22m
+2026-10-03T16:38:49.442Z 
+vite:resolve 
+[32m0.49ms[39m 
+[36mreact/jsx-runtime[39m 
+-> [2mE:/collabe project/co
+ntextlensai/extension/node_m
+odules/react/jsx-runtime.js
+[22m
+2026-10-03T16:38:49.443Z 
+vite:deps [32mscanning for 
+dependencies...[39m
+2026-10-03T16:38:49.444Z 
+vite:deps Crawling 
+dependencies using entries: 
+  [2mE:\collabe project\con
+textlensai\extension\index.h
+tml[22m
+[31merror when starting 
+dev server:
+Error: Port 5173 is already 
+in use
+    at Server.onError (file:
+///E:/collabe%20project/cont
+extlensai/extension/node_mod
+ules/vite/dist/node/chunks/d
+ep-BK3b2jBa.js:45596:18)
+    at Server.emit 
+(node:events:524:28)
+    at emitErrorNT 
+(node:net:1948:8)
+    at process.processTicksA
+ndRejections (node:internal/
+process/task_queues:90:21)[
+39m

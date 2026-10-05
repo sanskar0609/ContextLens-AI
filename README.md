@@ -421,7 +421,7 @@ Open study material and ask:
 * [ ] Support multiple webpages simultaneously
 * [ ] Conversation history persistence
 * [ ] Better webpage content extraction
-* [ ] PDF support
+- [x] PDF support
 * [ ] Website summarization mode
 * [ ] Source citations for generated answers
 * [ ] User-selectable AI models
